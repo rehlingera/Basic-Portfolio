@@ -1,10 +1,64 @@
+.ImgOverlay{
+    position: relative;
+    text-align: left;
+    color: white;
+    width: fit-content;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Overlay{
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    font-size: 25px;
+    vertical-align: middle;
+    width: 100%;
+    height: 45px;
+    padding-top: 10px;
+}
+
+.PortfolioImage{
+    width: 300px;
+}
+
+input{
+    margin-left: 20px;
+    height: 25px;
+    width: 95%;
+}
+
+textarea{
+    margin-left: 20px;
+    max-width: 95%;
+    margin-bottom: 20px;
+}
+
+#Submit{
+    height: 35px;
+    width: 100px;
+    background-color: cadetblue;
+    color: white;
+    margin-left:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-style: none;
+    margin-bottom: 20px;
+}
+
 .Wrapper{
     min-height: 100%;
     margin-bottom: -50px;
 }
 
 .Push{
-    height: 50px;
+    height: 150px;
+    margin-bottom: -50px;
 }
 
 html{
@@ -17,15 +71,20 @@ body{
     height: 100%;
     margin: 0;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
 }
 
-button{
+a{
     background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 14px;
+    width: 50px;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
 }
 
-img{
+.ProfileImage{
     width: 200px;
     float: left;
     margin-left: 20px;
@@ -45,11 +104,12 @@ p{
     color: cadetblue;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 45px;
     padding-top: 20px;
     padding-bottom: 20px;
     border-style: solid;
-    border-width: 1px;
-    border-color: cadetblue;
+    border-width: 2px;
+    border-color: lightgray;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -61,9 +121,11 @@ p{
     background-color: white;
     top: 0px;
     width: 100%;
-    height: 109px;
+    height: 92px;
     left:0px;
     z-index: -1;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
 }
 .HeaderBar{
     background-color: white;
@@ -74,6 +136,7 @@ p{
     border-bottom-width: 10px;
     border-bottom-color: #cccccc;
     padding-top: 20px;
+    height: 64px;
     z-index: 1
 }
 
@@ -92,7 +155,8 @@ p{
     text-align: center;
     font-weight: bold;
     width: fit-content;
-    height:fit-content;
+    padding-bottom: 8px;
+    height:64px;
 }
 
 .Container{
@@ -106,6 +170,7 @@ p{
 .Navigation{
     float: right;
     margin-top: 36px;
+    width: fit-content;
 }
 
 .Footer{

@@ -2,36 +2,47 @@
 <html>
 
     <head>
-        <title>Aaron Rehlinger - Contact</title>
-        <link rel="stylesheet" type="text/css" href=assets/style.css>
         <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <title>Aaron Rehlinger - Contact</title>
     </head>
 
     <body>
+        <div class="Wrapper">
+            <div class="HeaderBarBackground">
+                </div>
+                    <div class="HeaderBar">
+                        <div id="Name">
+                            <h1>Aaron Rehlinger</h1>
+                        </div>
 
-        <div class="Name">
-            <h1>Aaron Rehlinger</h1>
-        </div>
-
-        <div class="Navigation">
-            <button id="NavButton">About</button>
-            <button id="NavButton">Porfolio</button>
-            <button id="NavButton">Contact</button>
-        </div>
+                        <div class="Navigation">
+                            <a id="AboutButton" href="index.html"> About </a>
+                            <a id="PortfolioButton" href="portfolio.html"> Porfolio </a>
+                            <a id="ContactButton" href="contact.html"> Contact </a>
+                        </div>
+                    </div>
 
         <div class="Container">
-            <h1>Contact</h1>
-            <h2>Name</h2>
-            <h2>Email</h2>
-            <h2>Message</h2>
+            <h1 id="AboutMe">Contact</h1>
+            <p>Name</p>
+            <input type="text" name="Name">
+            <p>Email</p>
+            <input type="text" name="Email">
+            <p>Message</p>
+            <textarea rows="15" cols="124"></textarea>
+            <br>
+            <button id="Submit">Submit</button>
+            <br>
         </div>
 
-    <button class="Submit">Submit</button>
+        <div class="Push">
+            </div>
+        </div>
+        <footer class="Footer">
+            <p id="FooterText">Copyright © Aaron Rehlinger</p>
+        </div>
 
-    <div class="Footer">
-        <p>Copyright ©</p>
-    </div>
-    
     </body>
 
 </html>
