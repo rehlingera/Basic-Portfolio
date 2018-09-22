@@ -14,13 +14,14 @@
     position: absolute;
     bottom: 15px;
     text-align: center;
-    background-color: cadetblue;
+    background-color: #4aaaa5;
     color: white;
     font-size: 25px;
     vertical-align: middle;
     width: 100%;
     height: 45px;
     padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .PortfolioImage{
@@ -42,7 +43,7 @@ textarea{
 #Submit{
     height: 35px;
     width: 100px;
-    background-color: cadetblue;
+    background-color: #4aaaa5;
     color: white;
     margin-left:20px;
     font-family:Arial, Helvetica, sans-serif;
@@ -62,7 +63,7 @@ textarea{
 }
 
 html{
-    height: 100%;
+    height: 99%;
     margin: 0;
 }
 
@@ -75,9 +76,9 @@ body{
 }
 
 a{
-    background-color: white;
+    background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    color: gray;
+    color: #777777;
     font-size: 14px;
     width: 50px;
     padding: 0px 10px 0px 10px;
@@ -93,7 +94,7 @@ a{
 
 p{
     font-family: Arial, Helvetica, sans-serif;
-    color: gray;
+    color: #777777;
     margin-left: 20px;
     margin-right: 20px;
     line-height: 1.5;
@@ -101,35 +102,36 @@ p{
 
 #AboutMe{
     width:auto;
-    color: cadetblue;
+    color: #4aaaa5;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 45px;
-    padding-top: 20px;
+    margin-top: 30px;
+    padding-top: 0px;
     padding-bottom: 20px;
     border-style: solid;
     border-width: 2px;
-    border-color: lightgray;
+    border-color: #dddddd;
     border-top: none;
     border-left: none;
     border-right: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
 .HeaderBarBackground{
     position: absolute;
-    background-color: white;
+    background-color: #ffffff;
     top: 0px;
     width: 100%;
-    height: 92px;
+    height: 84px;
     left:0px;
     z-index: -1;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
 }
 .HeaderBar{
-    background-color: white;
-    width: 960px;
+    background-color: #ffffff;
+    width: 962px;
     top: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -137,7 +139,8 @@ p{
     border-bottom-color: #cccccc;
     padding-top: 20px;
     height: 64px;
-    z-index: 1
+    z-index: 1;
+    margin-bottom: 30px;
 }
 
 .HeaderBar::after{
@@ -148,15 +151,17 @@ p{
 
 #Name{
     float: left;
+    margin-top: -10px;
+    padding-bottom: 10px;
     padding-left:20px;
     padding-right:20px;
-    background-color: cadetblue;
+    background-color: #4aaaa5;
     color: white;
     text-align: center;
     font-weight: bold;
     width: fit-content;
-    padding-bottom: 8px;
     height:64px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Container{
@@ -165,6 +170,9 @@ p{
     width: 960px;
     height: fit-content;
     background-color: white;
+    border-color: #dddddd;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .Navigation{
@@ -175,12 +183,12 @@ p{
 
 .Footer{
     border-style: solid;
-    border-color: cadetblue;
+    border-color: #4aaaa5;
     border-width: 5px;
     border-left: none;
     border-right: none;
     border-bottom: none;
-    background-color: gray;
+    background-color: #666666;
     width: 100%;
     height: 50px;
     left: 0px;
@@ -205,7 +213,7 @@ p{
 #PortfolioButton{
     border-style: solid;
     border-width: 1px;
-    border-color: #cccccc;
+    border-color: #dddddd;
     border-top: none;
     border-bottom: none;
 }
