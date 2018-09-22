@@ -1,3 +1,8 @@
+a:hover{
+    text-decoration: underline;
+    color: cadetblue;
+}
+
 .ImgOverlay{
     position: relative;
     text-align: left;
@@ -28,16 +33,41 @@
     width: 300px;
 }
 
+.ImgOverlay:hover{
+    cursor: pointer;
+}
+
+.ImgOverlay:hover>.Overlay{
+    background-color: rgba(255,255,255,.75);
+    color: #4aaaa5;
+    margin-left:-5px;
+    width: 104%;
+}
+
+.ImgOverlay:hover>.PortfolioImage{
+    filter: blur(3px);
+}
+
 input{
     margin-left: 20px;
     height: 25px;
     width: 95%;
+    border: solid 1px rgb(169, 169, 169);
+}
+
+input:hover{
+    background-color: #dddddd;
+    border: solid 1px rgb(169, 169, 169);
 }
 
 textarea{
     margin-left: 20px;
     max-width: 95%;
     margin-bottom: 20px;
+}
+
+textarea:hover{
+    background-color: #dddddd;
 }
 
 #Submit{
@@ -52,6 +82,10 @@ textarea{
     margin-bottom: 20px;
 }
 
+#Submit:hover{
+    background-color: cadetblue;
+}
+
 .Wrapper{
     min-height: 100%;
     margin-bottom: -50px;
@@ -63,7 +97,7 @@ textarea{
 }
 
 html{
-    height: 99%;
+    height: 98.9%;
     margin: 0;
 }
 
@@ -128,6 +162,7 @@ p{
     z-index: -1;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
+    border-bottom-color: #cccccc;
 }
 .HeaderBar{
     background-color: #ffffff;
@@ -182,12 +217,7 @@ p{
 }
 
 .Footer{
-    border-style: solid;
-    border-color: #4aaaa5;
-    border-width: 5px;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
+    border-top: 8px solid #4aaaa5;
     background-color: #666666;
     width: 100%;
     height: 50px;
@@ -216,12 +246,15 @@ p{
     border-color: #dddddd;
     border-top: none;
     border-bottom: none;
+    cursor: pointer;
 }
 
 #AboutButton{
     border-style: none;
+    cursor: pointer;
 }
 
 #ContactButton{
     border-style: none;
+    cursor: pointer;
 }
